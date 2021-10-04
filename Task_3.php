@@ -13,9 +13,9 @@
 	<body>
 		<style>
 			body{
-				margin-top:90px;
-				background:aliceblue;
-				color:lime;
+				margin-top:80px;
+				background:silver;
+				color:yellow;
 			}
 			
 			card card-primary mb-2{
