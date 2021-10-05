@@ -35,13 +35,13 @@
                 <table class="table table-striped table-hover">
                     <tbody>
                         <tr>
-                            <th>Sr.No</th>
-                            <th>Student Name</th>
-                            <th>Roll Number</th>
-                            <th>Subject Name</th>
-                            <th>Subject Total</th>
-                            <th>Subject Obtain</th>
-                            <th>Grade</th>
+                            <th>Sr.No</th> // Serial Number
+                            <th>Student Name</th> // You have the add the students name.
+                            <th>Roll Number</th> // You have the add the students roll number.
+                            <th>Subject Name</th> // You have the add the subjects name.
+                            <th>Subject Total</th> // You have the add the students total marks of subject.
+                            <th>Subject Obtain</th> // You have the add the students obtained marks.
+                            <th>Grade</th> // You have the add the students grade.
                         </tr>
 
                         <?php
