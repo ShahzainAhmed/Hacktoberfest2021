@@ -14,8 +14,8 @@
     <style>
         body {
             margin-top: 80px;
-            background: silver;
-            color: red;
+            background: brown; // adding the brown color for easier readability.
+            color: gray; 
         }
 
         card card-primary mb-2 {
@@ -45,7 +45,7 @@
                         </tr>
 
                         <?php
-							include "connectivity.php"; // Using database connection file here
+							include "connectivity.php"; // including the connectivity.php file here.
 							$records = mysqli_query($db,"SELECT  subjects.`subj_id`,subjects.`subj_grade`,subjects.`subj_name`, `subjects`.`subj_total`,`subjects`.`subj_obtain`, `student_information`.`std_name`, student_information.`std_roll_number`
 FROM `subjects` INNER JOIN `student_information` ON `subjects`.`std_id`=`student_information`.`std_id`"); // fetch data from database
 						?>
@@ -68,7 +68,7 @@ FROM `subjects` INNER JOIN `student_information` ON `subjects`.`std_id`=`student
 						?>
                     </tbody>
                 </table>
-                <?php mysqli_close($db); // Close connection ?>
+                <?php mysqli_close($db); // Closing the connection ?>
             </div>
         </div>
     </div>
