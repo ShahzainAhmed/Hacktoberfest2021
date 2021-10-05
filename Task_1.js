@@ -10,6 +10,8 @@ $(document).ready(function(){
       console.log("This is JavaScript, pulled by Shahzain Ahmed");
       console.log("Work in progress!");
       console.log("New pull requests being held at Web Engineering Labs");
+      console.log("18 batch, Computer Systems Department (Section II)");
+      console.log("Computer Systems Engineering");
     };
   });
 
