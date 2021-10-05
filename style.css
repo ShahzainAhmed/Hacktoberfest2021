@@ -4,9 +4,9 @@ body {
   background: silver; // changing the color to silver.
 }
 form {
-  width: 70%;
-  margin: 70px auto;
-  background: gray;
+  width: 30%; // changed the width
+  margin: 60px auto; // changed the margin
+  background: silver; // changed the color
   padding: 60px 120px 80px 120px;
   text-align: center;
   -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
