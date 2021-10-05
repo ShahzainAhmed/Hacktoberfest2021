@@ -8,7 +8,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
 </head>
-
+ 		<!------ This is the <body> tag, all the code which is supposed to go in Body tag, comes here ---------->
 <body>
 	<form action="" method="post"> // Using the POST method here, instead of GET method.
         <label>
